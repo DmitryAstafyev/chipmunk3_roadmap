@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T08:11:05.043Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mXK_2axtuZMFcu7Z56CA" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T08:20:33.897Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UQ-QIeKjgd5d5RWUxI_h" version="16.5.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HTtbc1bWQAet3By7Gsei-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-2" target="HTtbc1bWQAet3By7Gsei-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HTtbc1bWQAet3By7Gsei-16" value="03.2023" style="swimlane;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="690" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-2" value="Unbound session" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="201" y="40" width="140" height="120" as="geometry">
+        <mxCell id="HTtbc1bWQAet3By7Gsei-2" value="Unbound session" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="21" y="30" width="140" height="120" as="geometry">
             <mxRectangle x="40" y="40" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -21,8 +21,8 @@
         <mxCell id="HTtbc1bWQAet3By7Gsei-5" value="electron/client" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-2">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-6" value="Migration functionality&#xa;to unbound session" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="201" y="200" width="140" height="120" as="geometry" />
+        <mxCell id="HTtbc1bWQAet3By7Gsei-6" value="Migration functionality&#xa;to unbound session" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="21" y="250" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HTtbc1bWQAet3By7Gsei-7" value="FS tools" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-6">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -33,22 +33,67 @@
         <mxCell id="HTtbc1bWQAet3By7Gsei-9" value="Serial port tools" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-6">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-11" target="HTtbc1bWQAet3By7Gsei-8">
+        <mxCell id="HTtbc1bWQAet3By7Gsei-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-2" target="HTtbc1bWQAet3By7Gsei-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-11" value="Cancellation support for DLT stat collector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="41" y="245" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-12" value="Folders scanner (for file browser)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-13" value="Plain text files searcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="384" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-5" target="HTtbc1bWQAet3By7Gsei-12">
+        <mxCell id="HTtbc1bWQAet3By7Gsei-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-12" target="HTtbc1bWQAet3By7Gsei-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HTtbc1bWQAet3By7Gsei-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-5" target="HTtbc1bWQAet3By7Gsei-13">
+        <mxCell id="HTtbc1bWQAet3By7Gsei-12" value="Folders scanner (for file browser)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="210" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-5" target="HTtbc1bWQAet3By7Gsei-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-13" value="Plain text files searcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="210" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-5" target="HTtbc1bWQAet3By7Gsei-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-11" target="HTtbc1bWQAet3By7Gsei-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-11" value="Cancellation support for DLT stat collector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="210" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HTtbc1bWQAet3By7Gsei-16" source="HTtbc1bWQAet3By7Gsei-11" target="HTtbc1bWQAet3By7Gsei-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-33" value="Migrate Home Screen file browser to rustcore API (cleanup related Electron API)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="380" y="150" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-35" value="Cancel scanning on client (DLT options tab)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="210" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-37" value="Charts (phase 1)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-16">
+          <mxGeometry x="530" y="30" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-38" value="Show charts by values. Initial solution without support of scaling on rustcore.  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;whiteSpace=wrap;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-37">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-17" value="04.2023" style="swimlane;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="710" y="10" width="350" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HTtbc1bWQAet3By7Gsei-17" source="HTtbc1bWQAet3By7Gsei-44" target="HTtbc1bWQAet3By7Gsei-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-44" value="Charts (phase 2)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-17">
+          <mxGeometry x="30" y="30" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-45" value="Add chart map on rustcore" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;whiteSpace=wrap;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-44">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-46" value="Scale function" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-44">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-47" value="Tests (rustcore/bindings)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-44">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-48" value="Upgrade charts API on client side (using rustcore scaling)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-17">
+          <mxGeometry x="30" y="191" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-38" target="HTtbc1bWQAet3By7Gsei-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
