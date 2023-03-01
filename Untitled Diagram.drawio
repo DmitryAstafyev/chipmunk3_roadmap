@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T08:35:25.082Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-QSQt1-Lk6difZ9zKTeX" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T08:40:56.418Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="PlD2jbHXIOqtAmf8xsRV" version="16.5.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -147,6 +147,18 @@
         <mxCell id="HTtbc1bWQAet3By7Gsei-73" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;Single and group requesting of DLT stat info&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-70">
           <mxGeometry x="15" y="150" width="175" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HTtbc1bWQAet3By7Gsei-17" source="HTtbc1bWQAet3By7Gsei-79" target="HTtbc1bWQAet3By7Gsei-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-79" value="Network sharing" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-17">
+          <mxGeometry x="250" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-80" value="Support of GitHub authorization " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;whiteSpace=wrap;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-79">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-83" value="Store filters/charts/history in GitHub repo" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-17">
+          <mxGeometry x="250" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="HTtbc1bWQAet3By7Gsei-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-38" target="HTtbc1bWQAet3By7Gsei-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -170,6 +182,24 @@
               <mxPoint x="843" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-87" value="05.2023" style="swimlane;fontSize=12;glass=0;shadow=0;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="10" width="560" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-104" value="Comments support" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-87">
+          <mxGeometry x="30" y="30" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-105" value="Add/change comments" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-104">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-106" value="Change styles " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-104">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-107" value="Store in GitHub" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=12;" vertex="1" parent="HTtbc1bWQAet3By7Gsei-104">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HTtbc1bWQAet3By7Gsei-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="HTtbc1bWQAet3By7Gsei-83" target="HTtbc1bWQAet3By7Gsei-104">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
