@@ -1,0 +1,218 @@
+<mxfile host="app.diagrams.net" modified="2023-11-07T11:15:04.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="U_0py6Qfrm1gAT3hiqdu" version="22.0.8" type="github">
+  <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
+    <mxGraphModel dx="1207" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-1" value="Base + Component Type" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-2" value="ID" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-1">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-3" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-1">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-8" value="Ports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-1">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-5" value="Base + Port" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-6" value="ID" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-5">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-7" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-5">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-66" value="Port Type (calculated): IN / OUT" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-5">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-9" value="Base + Connector" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-10" value="ID" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-9">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-11" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-9">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-12" value="PortsIn (ref to 1 port ID)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-9">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-23" value="PortsOut (ref to 1 port ID)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-9">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-13" value="Base + Composition" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-14" value="ID" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-13">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-15" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-13">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-16" value="Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-13">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-34" value="Connections" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-13">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-17" value="Base" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-18" value="ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-17">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-19" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-17">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-16" target="Ge_sMldBfr0qaaLdZFDq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-22" value="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-21">
+          <mxGeometry x="-0.2316" y="1" relative="1" as="geometry">
+            <mxPoint y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-25" value="Base + Composition" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-26" value="ID" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-25">
+          <mxGeometry x="10" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-27" value="ClassName" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-25">
+          <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-28" value="Components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-25">
+          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-31" value="Connections" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-25">
+          <mxGeometry x="10" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-16" target="Ge_sMldBfr0qaaLdZFDq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-30" value="&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-29">
+          <mxGeometry x="-0.1258" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-31" target="Ge_sMldBfr0qaaLdZFDq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-33" value="&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-32">
+          <mxGeometry y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-8" target="Ge_sMldBfr0qaaLdZFDq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-36" value="&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-35">
+          <mxGeometry x="0.2125" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-37" target="Ge_sMldBfr0qaaLdZFDq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-46" value="&lt;math style=&quot;font-size: 15px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;1 -&amp;nbsp;∞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-44">
+          <mxGeometry x="0.0722" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-37" value="ReferenceIn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-38" target="Ge_sMldBfr0qaaLdZFDq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-47" value="&amp;nbsp;1 -&amp;nbsp;∞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-45">
+          <mxGeometry x="-0.1405" y="3" relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-38" value="ReferenceOut" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-39" value="Reference:&lt;br&gt;- ref to Component Type ID&lt;br&gt;- ref to Composition ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-6" target="Ge_sMldBfr0qaaLdZFDq-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="90" />
+              <mxPoint x="940" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-41" value="&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-40">
+          <mxGeometry x="-0.1091" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-6" target="Ge_sMldBfr0qaaLdZFDq-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="90" />
+              <mxPoint x="990" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-43" value="&lt;math style=&quot;font-size: 18px;&quot; xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;mi mathvariant=&quot;normal&quot; style=&quot;font-size: 18px;&quot;&gt;∞&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&amp;nbsp;- 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-42">
+          <mxGeometry x="-0.1018" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-52" value="COMPOSITION" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="750" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-58" value="COMPONENT TYPE&lt;br&gt;B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="980" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-59" value="P IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="990" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-60" value="P IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1040" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ge_sMldBfr0qaaLdZFDq-61" target="Ge_sMldBfr0qaaLdZFDq-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="1105" />
+              <mxPoint x="670" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-61" value="P OUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1090" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-62" value="Information about connections (from composition)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="965" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-69" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="700" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-68" value="" style="group" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-69">
+          <mxGeometry width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-70" value="" style="group" vertex="1" connectable="0" parent="Ge_sMldBfr0qaaLdZFDq-68">
+          <mxGeometry width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-54" value="COMPONENT TYPE&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-70">
+          <mxGeometry width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-55" value="P IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-70">
+          <mxGeometry x="130" y="10" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-56" value="P IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-70">
+          <mxGeometry x="130" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ge_sMldBfr0qaaLdZFDq-57" value="P OUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ge_sMldBfr0qaaLdZFDq-69">
+          <mxGeometry x="130" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
