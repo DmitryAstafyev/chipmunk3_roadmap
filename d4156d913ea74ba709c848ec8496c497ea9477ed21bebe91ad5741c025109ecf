@@ -1,1 +1,1 @@
-{"protocol":"0.0.1","filters":[{"filter":{"filter":"error","flags":{"cases":false,"word":false,"reg":true}},"uuid":"3fe35747-b5ce-46ec-a4e8-915aae7eaf6d","active":true,"colors":{"color":"#000000","background":"#6ab04c"}}],"charts":[],"bookmarks":[],"comments":[]}
+{"protocol":"0.0.1","filters":[{"filter":{"filter":"error","flags":{"cases":false,"word":false,"reg":true}},"uuid":"3fe35747-b5ce-46ec-a4e8-915aae7eaf6d","active":true,"colors":{"color":"#FFFFFF","background":"#6ab04c"}}],"charts":[],"bookmarks":[],"comments":[]}
