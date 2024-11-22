@@ -31,8 +31,11 @@
         <mxCell id="qJLsTzf-kTQjAAmuUrDa-7" value="Session File (text)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qJLsTzf-kTQjAAmuUrDa-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="qJLsTzf-kTQjAAmuUrDa-10" value="Client" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qJLsTzf-kTQjAAmuUrDa-12" value="Client" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
