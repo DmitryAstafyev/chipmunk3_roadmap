@@ -1,9 +1,282 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Page-1" id="PFFoG3hcmiWgkDGbjgvs">
-    <mxGraphModel>
+    <mxGraphModel dx="3550" dy="3050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-1" value="[RS] Plugin Entity (struct)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-1080" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QNKWTP_iEhy42o_GwNS_-1" source="QNKWTP_iEhy42o_GwNS_-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="54.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-3" value="Module (wasm)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-1">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-4" value="Plugin&#39;s Settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-1">
+          <mxGeometry x="20" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-5" value="Metadata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-1">
+          <mxGeometry x="20" y="140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-6" value="Type (source / parser)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-5">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-7" value="Render&#39;s Options" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-5">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-8" value="Session&#39;s Options" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-5">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-9" value="Plugin&#39;s Description Path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-1">
+          <mxGeometry x="20" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-10" value="[RS] Plugin API&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="555" y="-1080" width="250" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-11" value="&lt;b&gt;get_settings_scheme&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;returns format of own plugins settings&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="40" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-12" value="&lt;b&gt;set_settings&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;applies settings of plugin for current session&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="100" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-13" value="&lt;b&gt;get_sessions_options_scheme&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;returns format of session&#39;s options&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="160" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-14" value="&lt;b&gt;set_sessions_options&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;applies options for current session&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="220" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-15" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;get_type&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;returns type of plugin: source / parser&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="340" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-16" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;parse&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;parsing of incoming data&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="460" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-17" value="&lt;b&gt;get_render_options&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;returns options of render (list of columns)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="280" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-18" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;get_version&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;returns versions data&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-10">
+          <mxGeometry x="20" y="400" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-19" value="Settings / Options Scheme Field" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-1080" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-20" value="&lt;b&gt;Title&lt;/b&gt;&lt;div&gt;string&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-19">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-21" value="&lt;div&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/div&gt;&lt;div&gt;string&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-19">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-22" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FieldType&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-19">
+          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=oval;endFill=1;startArrow=oval;startFill=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-24" target="QNKWTP_iEhy42o_GwNS_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-24" value="Scheme Field Type" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="-1080" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-25" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-26" value="Number Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="70" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-27" value="Multiple Values List" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-28" value="Single Value List" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="130" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-29" value="Checkbox" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="160" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-30" value="Path Selector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="190" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-31" value="Range" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry x="20" y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=oval;endFill=1;startArrow=oval;startFill=1;dashed=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-22" target="QNKWTP_iEhy42o_GwNS_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-11" target="QNKWTP_iEhy42o_GwNS_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-13" target="QNKWTP_iEhy42o_GwNS_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-35" value="Plugin Type" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="-800" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-36" value="&lt;b&gt;Source&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-35">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-37" value="&lt;div&gt;&lt;b&gt;Parser&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-35">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=oval;endFill=1;startArrow=oval;startFill=1;dashed=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-15" target="QNKWTP_iEhy42o_GwNS_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-39" value="Render Options" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-900" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-40" value="&lt;b&gt;Columns List&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-39">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=oval;endFill=1;startArrow=oval;startFill=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-17" target="QNKWTP_iEhy42o_GwNS_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=oval;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-12" target="QNKWTP_iEhy42o_GwNS_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=oval;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-13" target="QNKWTP_iEhy42o_GwNS_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=oval;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-14" target="QNKWTP_iEhy42o_GwNS_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=oval;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-17" target="QNKWTP_iEhy42o_GwNS_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;endArrow=oval;endFill=0;startArrow=oval;startFill=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-15" target="QNKWTP_iEhy42o_GwNS_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-47" value="Inherited Field&#39;s Prop" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="-1080" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-48" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Default Value&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FieldValue&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-47">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-49" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Validation Options&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ValidationOptions&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-47">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-50" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Plugin Entity &amp;amp; API Description&lt;/h1&gt;&lt;p&gt;Description of plugin&#39;s entity on the level of rustcore&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1160" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-51" value="Version Data" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-700" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-52" value="&lt;b&gt;Plugin Version&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-51">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-53" value="&lt;b&gt;Chipmunk API version&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-51">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=oval;startFill=1;endArrow=oval;endFill=1;dashed=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-18" target="QNKWTP_iEhy42o_GwNS_-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-55" value="Plugin Description" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-720" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-56" value="&lt;b&gt;[yaml] general&lt;/b&gt;&lt;div&gt;author, homepage, repo, etc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-55">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-57" value="&lt;b&gt;[md] description&lt;/b&gt;&lt;div&gt;description of plugin&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-55">
+          <mxGeometry x="20" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-58" value="&lt;b&gt;[media] resources&lt;/b&gt;&lt;div&gt;*.jpeg, *.gif, etc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-55">
+          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=oval;startFill=1;endArrow=oval;endFill=1;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-9" target="QNKWTP_iEhy42o_GwNS_-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-60" value="[disk] Plugin package&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1080" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-61" value="plugin.wasm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-60">
+          <mxGeometry x="20" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-62" value="plugin.yaml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-60">
+          <mxGeometry x="20" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-63" value="resources" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;align=left;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-60">
+          <mxGeometry x="20" y="140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-64" value="*.jpeg" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-63">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-65" value="*.gif" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-63">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-66" value="etc" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-63">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Plugins Loading (initialize plugins manager)&lt;/h1&gt;&lt;p&gt;Loading plugins manager on rustcore side&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-480" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-68" value="Read plugins&lt;div&gt;&amp;nbsp;state setting&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="505" y="-335" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-69" value="Validate API version" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="-265" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-70" value="Walk each active&amp;nbsp;&lt;div&gt;plugin folder&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="645" y="-335" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-72" target="QNKWTP_iEhy42o_GwNS_-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="-320" />
+              <mxPoint x="950" y="-285" />
+              <mxPoint x="495" y="-285" />
+              <mxPoint x="495" y="-250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-72" value="Validate API version" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-335" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-73" value="Get Type" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="-265" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-74" value="Cache Session&amp;nbsp;&lt;div&gt;Scheme Options&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="787.5" y="-265" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-75" value="Plugin Entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="-205" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-76" value="Plugin Entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="-195" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-77" value="Plugin Entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="-185" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-74" target="QNKWTP_iEhy42o_GwNS_-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-79" value="[NodeJS] Front End" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-380" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-80" value="&lt;b&gt;Plugins Service&lt;/b&gt;&lt;div&gt;holder rust manager instance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-79">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-82" target="QNKWTP_iEhy42o_GwNS_-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-82" value="&lt;b&gt;Init&lt;/b&gt;&amp;nbsp;&lt;div&gt;path to plugin&#39;s folder&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-80" target="QNKWTP_iEhy42o_GwNS_-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-85" target="QNKWTP_iEhy42o_GwNS_-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-85" value="&lt;b&gt;Ready&lt;/b&gt;&amp;nbsp;&lt;div&gt;report of initialization&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-260" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-77" target="QNKWTP_iEhy42o_GwNS_-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="603" y="-135" />
+              <mxPoint x="440" y="-135" />
+              <mxPoint x="440" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
