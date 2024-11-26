@@ -216,7 +216,7 @@
         <mxCell id="QNKWTP_iEhy42o_GwNS_-70" value="Walk each active&amp;nbsp;&lt;div&gt;plugin folder&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="645" y="-335" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-72" target="QNKWTP_iEhy42o_GwNS_-69">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-71" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-72" target="QNKWTP_iEhy42o_GwNS_-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="950" y="-320" />
@@ -235,7 +235,7 @@
         <mxCell id="QNKWTP_iEhy42o_GwNS_-74" value="Cache Session&amp;nbsp;&lt;div&gt;Scheme Options&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="787.5" y="-265" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-74" target="QNKWTP_iEhy42o_GwNS_-77">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-78" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-74" target="QNKWTP_iEhy42o_GwNS_-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QNKWTP_iEhy42o_GwNS_-79" value="[NodeJS] Front End" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
@@ -244,22 +244,22 @@
         <mxCell id="QNKWTP_iEhy42o_GwNS_-80" value="&lt;b&gt;Plugins Service&lt;/b&gt;&lt;div&gt;holder rust manager instance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="QNKWTP_iEhy42o_GwNS_-79">
           <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-82" target="QNKWTP_iEhy42o_GwNS_-68">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-81" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-82" target="QNKWTP_iEhy42o_GwNS_-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QNKWTP_iEhy42o_GwNS_-82" value="&lt;b&gt;Init&lt;/b&gt;&amp;nbsp;&lt;div&gt;path to plugin&#39;s folder&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="285" y="-350" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-80" target="QNKWTP_iEhy42o_GwNS_-82">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-83" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-80" target="QNKWTP_iEhy42o_GwNS_-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-85" target="QNKWTP_iEhy42o_GwNS_-80">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-84" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-85" target="QNKWTP_iEhy42o_GwNS_-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QNKWTP_iEhy42o_GwNS_-85" value="&lt;b&gt;Ready&lt;/b&gt;&amp;nbsp;&lt;div&gt;report of initialization&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#ffff88;strokeColor=#36393d;direction=west;" vertex="1" parent="1">
           <mxGeometry x="285" y="-260" width="135" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNKWTP_iEhy42o_GwNS_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-77" target="QNKWTP_iEhy42o_GwNS_-85">
+        <mxCell id="QNKWTP_iEhy42o_GwNS_-86" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QNKWTP_iEhy42o_GwNS_-77" target="QNKWTP_iEhy42o_GwNS_-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="603" y="-135" />
