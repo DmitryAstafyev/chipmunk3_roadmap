@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_PZy0TNYZUn5gBfRcalJ-26" value="Rust Core" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="260" width="420" height="370" as="geometry" />
+          <mxGeometry x="260" width="420" height="330" as="geometry" />
         </mxCell>
         <mxCell id="_PZy0TNYZUn5gBfRcalJ-27" value="&lt;b&gt;Components&lt;/b&gt;&lt;div&gt;Holds parsers/sources data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="_PZy0TNYZUn5gBfRcalJ-26">
           <mxGeometry x="20" y="40" width="180" height="80" as="geometry" />
